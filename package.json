@@ -1,0 +1,15 @@
+{
+    "name": "wp-arvancloud-storage",
+    "version": "0.9.1",
+    "description": "",
+    "author": "Khorshid",
+    "devDependencies": {
+        "grunt": "1.6.1"
+    },
+    "dependencies": {
+        "grunt-contrib-compass": "^1.1.1",
+        "grunt-contrib-watch": "^1.1.0",
+        "trim-newlines": "^5.0.0",
+        "semver-regex": "4.0.5"
+    }
+}

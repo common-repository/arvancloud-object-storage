@@ -1,0 +1,20 @@
+{
+    "name": "khorshid/arvancloud-storage-for-wordpress",
+    "authors": [
+        {
+            "name": "Khorshid",
+            "email": "info@khorshidlab.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.241",
+        "symfony/polyfill-mbstring": "1.20.0",
+        "khorshid/wp-encrypt": "^1.0",
+        "woocommerce/action-scheduler": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WP_Arvan\\OBS\\": "inc\/"
+        }
+    }
+}

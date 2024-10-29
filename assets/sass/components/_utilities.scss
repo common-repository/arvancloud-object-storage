@@ -1,0 +1,63 @@
+.d-flex {
+  display: flex !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.me-2 {
+  margin-inline-end: 8px;
+}
+
+.me-3 {
+  margin-inline-end: 12px;
+}
+
+.me-4 {
+  margin-inline-end: 16px;
+}
+
+.wrap {
+  .arvan-wrapper {
+    margin-top: 42px;
+  }
+
+  .footer-wrapper {
+    margin-top: 29px;
+  }
+}
+
+.arvan-wrapper {
+  max-width: 1232px;
+  width: 100%;
+}
+
+.arvan-card {
+  max-width: 1232px;
+  width: calc(100% - 48px);
+  background: #fff;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+
+  h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #344456;
+    margin-top: 0;
+  }
+
+  h1 {
+    color: #253343;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
